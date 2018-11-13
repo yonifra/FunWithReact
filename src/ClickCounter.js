@@ -1,12 +1,8 @@
 import React, { Component } from "react";
 
-export class ClickCounter extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      times: 0
-    };
-  }
+class ClickCounter extends Component {
+  state = { times: 0 };
+  props = { name: "dodds" };
 
   render() {
     return (
@@ -23,3 +19,5 @@ export class ClickCounter extends Component {
     );
   }
 }
+
+export default ClickCounter;
