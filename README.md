@@ -1,2 +1,0 @@
-# FunWithReact
-Created with CodeSandbox
